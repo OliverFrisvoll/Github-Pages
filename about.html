@@ -2,23 +2,91 @@
 layout: default
 title: About
 ---
+<h3> Assignments, and links to repos: </h3> <br>
 
-<p id="demo"></p>
+<a href="https://github.com/OliverFrisvoll/ResMeth_Ass/invitations">
+    Asset Management - Assignment/Presentation
+</a> <br>
+<h4> Next deadline: </h4><p id="ass"></p> <br>
+
+<a href="https://github.com/OliverFrisvoll/AssetManage_Ass/invitations">
+    Research Methodology in Finance - Assignments
+</a> <br>
+<h4> Next deadline: </h4><p id="res"></p> <br>
+
+<a href="https://github.com/OliverFrisvoll/Financial_risk_assignments/invitations">
+    Financial Risk Management - Assignments
+</a> <br>
+<h4> Next deadline: </h4><p id="fin"></p> <br>
+
+<a> Applied Valuation Presentations </a> <br>
+<h4> Next deadline: </h4> <p id="app"></p> <br>
+
+<h3> R Resources: </h3> <br>
+
+<a href="https://ggplot2-book.org/">ggplot2</a> <br>
+<a href="https://r4ds.had.co.nz/">R for Data Science</a> <br>
+<a href="https://adv-r.hadley.nz/">Advanced R</a> <br>
 
 <script>
-    let countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
+    let Asset = new Date("Jan 5, 2023 15:37:25").getTime();
     let x = setInterval(function () {
         let now = new Date().getTime();
-        let distance = countDownDate - now;
+        let distance = Asset - now;
         let days = Math.floor(distance / (1000 * 60 * 60 * 24));
         let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
         let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
         let seconds = Math.floor((distance % (1000 * 60)) / 1000);
-        document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+        document.getElementById("ass").innerHTML = days + "d " + hours + "h "
             + minutes + "m " + seconds + "s ";
         if (distance < 0) {
             clearInterval(x);
-            document.getElementById("demo").innerHTML = "EXPIRED";
+            document.getElementById("Ass").innerHTML = "No new deadline";
+        }
+    }, 1000);
+    let Res_Met = new Date("Jan 5, 2026 15:37:25").getTime();
+    let y = setInterval(function () {
+        let now = new Date().getTime();
+        let distance = Res_Met - now;
+        let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        document.getElementById("res").innerHTML = days + "d " + hours + "h "
+            + minutes + "m " + seconds + "s ";
+        if (distance < 0) {
+            clearInterval(y);
+            document.getElementById("res").innerHTML = "No new deadline";
+        }
+    }, 1000);
+    let fin_risk = new Date("Jan 5, 2026 15:37:25").getTime();
+    let z = setInterval(function () {
+        let now = new Date().getTime();
+        let distance = Res_Met - now;
+        let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        document.getElementById("fin").innerHTML = days + "d " + hours + "h "
+            + minutes + "m " + seconds + "s ";
+        if (distance < 0) {
+            clearInterval(y);
+            document.getElementById("fin").innerHTML = "No new deadline";
+        }
+    }, 1000);
+    let applied = new Date("Jan 5, 2026 15:37:25").getTime();
+    let w = setInterval(function () {
+        let now = new Date().getTime();
+        let distance = Res_Met - now;
+        let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        document.getElementById("app").innerHTML = days + "d " + hours + "h "
+            + minutes + "m " + seconds + "s ";
+        if (distance < 0) {
+            clearInterval(y);
+            document.getElementById("app").innerHTML = "No new deadline";
         }
     }, 1000);
 </script>
