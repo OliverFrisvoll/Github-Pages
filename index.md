@@ -1,6 +1,8 @@
 ---
 layout: default
+title: Index Page
 ---
+
 # Index
 
 ## Github links:
