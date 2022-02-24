@@ -1,6 +1,5 @@
 ---
 layout: default
-Ollie's Website
 ---
 ## Github links:
 
