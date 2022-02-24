@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+index
 ## Github links:
 
 [Asset Management - Assignment/Presentation](https://github.com/OliverFrisvoll/ResMeth_Ass/invitations). <br>
