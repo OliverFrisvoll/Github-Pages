@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About
+title: Ollie's Webpage
 ---
 <h2> Assignments, and links to repos: </h2>
 
@@ -62,7 +62,7 @@ title: About
     let fin_risk = new Date("Mar 17, 2022 12:00:00").getTime();
     let z = setInterval(function () {
         let now = new Date().getTime();
-        let distance = Res_Met - now;
+        let distance = fin_risk - now;
         let days = Math.floor(distance / (1000 * 60 * 60 * 24));
         let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
         let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
@@ -77,7 +77,7 @@ title: About
     let applied = new Date("Mar 8, 2022 08:00:00").getTime();
     let w = setInterval(function () {
         let now = new Date().getTime();
-        let distance = Res_Met - now;
+        let distance = applied - now;
         let days = Math.floor(distance / (1000 * 60 * 60 * 24));
         let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
         let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
