@@ -1,7 +1,7 @@
 ---
 layout: default
+title: Github links:
 ---
-## Github links:
 
 [Asset Management - Assignment/Presentation](https://github.com/OliverFrisvoll/ResMeth_Ass/invitations). <br>
 [Research Methodology in Finance - Assignments](https://github.com/OliverFrisvoll/AssetManage_Ass/invitations). <br>
