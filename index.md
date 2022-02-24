@@ -1,9 +1,7 @@
 ---
 layout: default
-title: Index Page
+title: Ollie's Website
 ---
-
-# Index
 
 ## Github links:
 
@@ -17,6 +15,3 @@ title: Index Page
 [R for Data Science](https://r4ds.had.co.nz/) <br>
 [Advanced R](https://adv-r.hadley.nz/) <br>
 
-
-## Brought to you by:
-<img src="/pictures/Moorton%20Security.png">
