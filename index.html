@@ -2,27 +2,27 @@
 layout: default
 title: About
 ---
-<h3> Assignments, and links to repos: </h3>
+<h2> Assignments, and links to repos: </h2>
 
 <a href="https://github.com/OliverFrisvoll/ResMeth_Ass/invitations">
     Asset Management - Assignment/Presentation
 </a> <br>
-<h4> Next deadline: </h4><p id="ass"></p>
+<h4> Next deadline: </h4><h3 id="ass"></h3>
 
 <a href="https://github.com/OliverFrisvoll/AssetManage_Ass/invitations">
     Research Methodology in Finance - Assignments
 </a> <br>
-<h4> Next deadline: </h4><p id="res"></p>
+<h4> Next deadline: </h4><h3 id="res"></h3>
 
 <a href="https://github.com/OliverFrisvoll/Financial_risk_assignments/invitations">
     Financial Risk Management - Assignments
 </a> <br>
-<h4> Next deadline: </h4><p id="fin"></p>
+<h4> Next deadline: </h4><h3 id="fin"></h3>
 
 <a> Applied Valuation Presentations </a> <br>
-<h4> Next deadline: </h4> <p id="app"></p>
+<h4> Next deadline: </h4> <h3 id="app"></h3>
 
-<h3> R Resources: </h3> <br>
+<h2> R Resources: </h2>
 
 <a href="https://ggplot2-book.org/">ggplot2</a> <br>
 <a href="https://r4ds.had.co.nz/">R for Data Science</a> <br>
@@ -70,7 +70,7 @@ title: About
         document.getElementById("fin").innerHTML = days + "d " + hours + "h "
             + minutes + "m " + seconds + "s ";
         if (distance < 0) {
-            clearInterval(y);
+            clearInterval(z);
             document.getElementById("fin").innerHTML = "No new deadline";
         }
     }, 1000);
@@ -85,7 +85,7 @@ title: About
         document.getElementById("app").innerHTML = days + "d " + hours + "h "
             + minutes + "m " + seconds + "s ";
         if (distance < 0) {
-            clearInterval(y);
+            clearInterval(w);
             document.getElementById("app").innerHTML = "No new deadline";
         }
     }, 1000);
