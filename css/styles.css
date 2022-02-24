@@ -1,4 +1,9 @@
 @charset "UTF-8";
+:root {
+    --bg-color: #ececec;
+    --header-color: #212121;
+    --color-white: #f9f9f9;
+}
 
 h1, h2, h3, h4, h5, h6 {
     font-size: 100%;
@@ -11,12 +16,7 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, 
 }
 
 body, html {
-    background-color: #ececec;
-}
-
-.header {
-    background-color: #212121;
-    height: 50px;
+    background-color: var(--bg-color);
 }
 
 .ht {
@@ -28,12 +28,32 @@ body, html {
     top: 10px;
 }
 
+.navbar {
+    overflow: hidden;
+    background-color: var(--header-color);
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: var(--color-white);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar a:hover{
+    background: #ddd;
+    color: black;
+}
+
+.main {
+    margin-top:30px;
+}
+
 
 /*
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
-    margin:0;
-    padding:0;
-}
 table {
     border-collapse:collapse;
     border-spacing:0;
