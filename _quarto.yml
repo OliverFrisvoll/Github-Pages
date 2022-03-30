@@ -13,7 +13,7 @@ website:
 
 format:
   html:
-    theme: slate
+    theme: yeti
     css: styles.css
 
 
