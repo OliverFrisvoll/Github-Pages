@@ -2,7 +2,7 @@
 title: "Ollie's Website"
 ---
 
-:::{.callout-warning}
+:::{.callout-info}
 ## Important
 
 This site is still under construction.
