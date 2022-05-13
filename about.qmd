@@ -1,9 +1,0 @@
----
-title: "About"
----
-
-:::{.callout-warning}
-## Important
-
-This site is still under construction.
-:::
